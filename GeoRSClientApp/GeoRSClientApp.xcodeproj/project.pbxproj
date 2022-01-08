@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9464165E2789E9F200370043 /* GeoRSClientAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9464165D2789E9F200370043 /* GeoRSClientAppApp.swift */; };
+		946416602789E9F200370043 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9464165F2789E9F200370043 /* ContentView.swift */; };
+		946416622789E9F500370043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 946416612789E9F500370043 /* Assets.xcassets */; };
+		946416652789E9F500370043 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 946416642789E9F500370043 /* Preview Assets.xcassets */; };
+		9464166F2789E9F500370043 /* GeoRSClientAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9464166E2789E9F500370043 /* GeoRSClientAppTests.swift */; };
+		946416792789E9F500370043 /* GeoRSClientAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946416782789E9F500370043 /* GeoRSClientAppUITests.swift */; };
+		9464167B2789E9F500370043 /* GeoRSClientAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9464167A2789E9F500370043 /* GeoRSClientAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9464166B2789E9F500370043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 946416522789E9F100370043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 946416592789E9F100370043;
+			remoteInfo = GeoRSClientApp;
+		};
+		946416752789E9F500370043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 946416522789E9F100370043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 946416592789E9F100370043;
+			remoteInfo = GeoRSClientApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9464165A2789E9F200370043 /* GeoRSClientApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoRSClientApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9464165D2789E9F200370043 /* GeoRSClientAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoRSClientAppApp.swift; sourceTree = "<group>"; };
+		9464165F2789E9F200370043 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		946416612789E9F500370043 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		946416642789E9F500370043 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9464166A2789E9F500370043 /* GeoRSClientAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoRSClientAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9464166E2789E9F500370043 /* GeoRSClientAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoRSClientAppTests.swift; sourceTree = "<group>"; };
+		946416742789E9F500370043 /* GeoRSClientAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoRSClientAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		946416782789E9F500370043 /* GeoRSClientAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoRSClientAppUITests.swift; sourceTree = "<group>"; };
+		9464167A2789E9F500370043 /* GeoRSClientAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoRSClientAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		946416572789E9F100370043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946416672789E9F500370043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946416712789E9F500370043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		946416512789E9F100370043 = {
+			isa = PBXGroup;
+			children = (
+				9464165C2789E9F200370043 /* GeoRSClientApp */,
+				9464166D2789E9F500370043 /* GeoRSClientAppTests */,
+				946416772789E9F500370043 /* GeoRSClientAppUITests */,
+				9464165B2789E9F200370043 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9464165B2789E9F200370043 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9464165A2789E9F200370043 /* GeoRSClientApp.app */,
+				9464166A2789E9F500370043 /* GeoRSClientAppTests.xctest */,
+				946416742789E9F500370043 /* GeoRSClientAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9464165C2789E9F200370043 /* GeoRSClientApp */ = {
+			isa = PBXGroup;
+			children = (
+				9464165D2789E9F200370043 /* GeoRSClientAppApp.swift */,
+				9464165F2789E9F200370043 /* ContentView.swift */,
+				946416612789E9F500370043 /* Assets.xcassets */,
+				946416632789E9F500370043 /* Preview Content */,
+			);
+			path = GeoRSClientApp;
+			sourceTree = "<group>";
+		};
+		946416632789E9F500370043 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				946416642789E9F500370043 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9464166D2789E9F500370043 /* GeoRSClientAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9464166E2789E9F500370043 /* GeoRSClientAppTests.swift */,
+			);
+			path = GeoRSClientAppTests;
+			sourceTree = "<group>";
+		};
+		946416772789E9F500370043 /* GeoRSClientAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				946416782789E9F500370043 /* GeoRSClientAppUITests.swift */,
+				9464167A2789E9F500370043 /* GeoRSClientAppUITestsLaunchTests.swift */,
+			);
+			path = GeoRSClientAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		946416592789E9F100370043 /* GeoRSClientApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9464167E2789E9F500370043 /* Build configuration list for PBXNativeTarget "GeoRSClientApp" */;
+			buildPhases = (
+				946416562789E9F100370043 /* Sources */,
+				946416572789E9F100370043 /* Frameworks */,
+				946416582789E9F100370043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoRSClientApp;
+			productName = GeoRSClientApp;
+			productReference = 9464165A2789E9F200370043 /* GeoRSClientApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		946416692789E9F500370043 /* GeoRSClientAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946416812789E9F500370043 /* Build configuration list for PBXNativeTarget "GeoRSClientAppTests" */;
+			buildPhases = (
+				946416662789E9F500370043 /* Sources */,
+				946416672789E9F500370043 /* Frameworks */,
+				946416682789E9F500370043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9464166C2789E9F500370043 /* PBXTargetDependency */,
+			);
+			name = GeoRSClientAppTests;
+			productName = GeoRSClientAppTests;
+			productReference = 9464166A2789E9F500370043 /* GeoRSClientAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		946416732789E9F500370043 /* GeoRSClientAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946416842789E9F500370043 /* Build configuration list for PBXNativeTarget "GeoRSClientAppUITests" */;
+			buildPhases = (
+				946416702789E9F500370043 /* Sources */,
+				946416712789E9F500370043 /* Frameworks */,
+				946416722789E9F500370043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				946416762789E9F500370043 /* PBXTargetDependency */,
+			);
+			name = GeoRSClientAppUITests;
+			productName = GeoRSClientAppUITests;
+			productReference = 946416742789E9F500370043 /* GeoRSClientAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		946416522789E9F100370043 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					946416592789E9F100370043 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					946416692789E9F500370043 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 946416592789E9F100370043;
+					};
+					946416732789E9F500370043 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 946416592789E9F100370043;
+					};
+				};
+			};
+			buildConfigurationList = 946416552789E9F100370043 /* Build configuration list for PBXProject "GeoRSClientApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 946416512789E9F100370043;
+			productRefGroup = 9464165B2789E9F200370043 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				946416592789E9F100370043 /* GeoRSClientApp */,
+				946416692789E9F500370043 /* GeoRSClientAppTests */,
+				946416732789E9F500370043 /* GeoRSClientAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		946416582789E9F100370043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946416652789E9F500370043 /* Preview Assets.xcassets in Resources */,
+				946416622789E9F500370043 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946416682789E9F500370043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946416722789E9F500370043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		946416562789E9F100370043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946416602789E9F200370043 /* ContentView.swift in Sources */,
+				9464165E2789E9F200370043 /* GeoRSClientAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946416662789E9F500370043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9464166F2789E9F500370043 /* GeoRSClientAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946416702789E9F500370043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9464167B2789E9F500370043 /* GeoRSClientAppUITestsLaunchTests.swift in Sources */,
+				946416792789E9F500370043 /* GeoRSClientAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9464166C2789E9F500370043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 946416592789E9F100370043 /* GeoRSClientApp */;
+			targetProxy = 9464166B2789E9F500370043 /* PBXContainerItemProxy */;
+		};
+		946416762789E9F500370043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 946416592789E9F100370043 /* GeoRSClientApp */;
+			targetProxy = 946416752789E9F500370043 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9464167C2789E9F500370043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9464167D2789E9F500370043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9464167F2789E9F500370043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeoRSClientApp/Preview Content\"";
+				DEVELOPMENT_TEAM = DZDFQ3M499;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.futureapps.GeoRSClientApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		946416802789E9F500370043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeoRSClientApp/Preview Content\"";
+				DEVELOPMENT_TEAM = DZDFQ3M499;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.futureapps.GeoRSClientApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		946416822789E9F500370043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DZDFQ3M499;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.futureapps.GeoRSClientAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoRSClientApp.app/GeoRSClientApp";
+			};
+			name = Debug;
+		};
+		946416832789E9F500370043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DZDFQ3M499;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.futureapps.GeoRSClientAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoRSClientApp.app/GeoRSClientApp";
+			};
+			name = Release;
+		};
+		946416852789E9F500370043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DZDFQ3M499;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.futureapps.GeoRSClientAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeoRSClientApp;
+			};
+			name = Debug;
+		};
+		946416862789E9F500370043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DZDFQ3M499;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.futureapps.GeoRSClientAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeoRSClientApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		946416552789E9F100370043 /* Build configuration list for PBXProject "GeoRSClientApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9464167C2789E9F500370043 /* Debug */,
+				9464167D2789E9F500370043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9464167E2789E9F500370043 /* Build configuration list for PBXNativeTarget "GeoRSClientApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9464167F2789E9F500370043 /* Debug */,
+				946416802789E9F500370043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946416812789E9F500370043 /* Build configuration list for PBXNativeTarget "GeoRSClientAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946416822789E9F500370043 /* Debug */,
+				946416832789E9F500370043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946416842789E9F500370043 /* Build configuration list for PBXNativeTarget "GeoRSClientAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946416852789E9F500370043 /* Debug */,
+				946416862789E9F500370043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 946416522789E9F100370043 /* Project object */;
+}
